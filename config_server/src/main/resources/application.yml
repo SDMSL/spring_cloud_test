@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config_server
+
+server:
+  port: 8288
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+
+spring:
+  cloud:
+    server:
+      con
+
